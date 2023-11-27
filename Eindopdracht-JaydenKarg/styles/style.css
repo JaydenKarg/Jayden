@@ -1,0 +1,33 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: white;
+    font-size: 36px;
+    font-weight: 900;
+    border: 1px solid white;
+    padding: 20px;
+    margin-top: auto;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+footer {background-color: black;
+        color: white;
+}
+
+ img {
+    width: 30%;
+ }
+
+nav ul {
+    display: flex;
+}
