@@ -2,32 +2,101 @@
     padding: 0%;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
-    background-color: white;
-    font-size: 36px;
-    font-weight: 900;
-    border: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(237, 194, 21);
+    background-color: rgb(0, 0, 42);
+    font-size: 60px;
     padding: 20px;
     margin-top: auto;
+    text-align: center;
 }
 
 h2 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;
+    background-color: rgb(235, 82, 82);
 }
 
-footer {background-color: black;
+h3 {
+    color: white;
+}
+
+footer {background-color: rgb(0, 0, 42);
         color: white;
 }
 
- img {
-    width: 30%;
+nav img {
+   width: 100px;
  }
 
 nav ul {
-    display: flex;
+    display: flex; justify-content: space-evenly;
+    font-size: 30px;
+    background-color: rgb(0, 0, 42);
+    text-align: center;
 }
+
+nav ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+}
+
+.button {
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 0.3em;
+    border: 2px solid rgb(0, 0, 42);
+    border-radius: 0.3em;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: white;
+    background: rgb(0, 0, 42);
+    transition: all 250ms ease;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(235, 82, 82);
+    padding: 50px 
+}
+
+section img {
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.container img {
+    width: 4em;
+    color: white;
+}
+
+nav ul li a:hover {
+    transition-duration: 0.3ms;
+    color: rgb(235, 82, 82);
+    font-size: 1.1em;
+}
+
+.voetballers {
+    background-color: rgb(235, 82, 82);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.teamfoto img {
+    width: 100%;
+}
+
