@@ -1,48 +1,50 @@
-*{
-    padding: 0%;
+* {
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
     color: rgb(237, 194, 21);
     background-color: rgb(0, 0, 42);
-    font-size: 60px;
+    font-size: 50px;
     padding: 20px;
     margin-top: auto;
     text-align: center;
+    align-items: center;
 }
 
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     color: white;
     background-color: rgb(235, 82, 82);
+    padding: 10px;
 }
 
 h3 {
     color: white;
 }
 
-footer {background-color: rgb(0, 0, 42);
-        color: white;
+footer {
+    background-color: rgb(0, 0, 42);
+    color: white;
 }
 
 nav img {
    width: 100px;
- }
+}
 
 nav ul {
-    display: flex; justify-content: space-evenly;
+    display: flex; 
+    justify-content: space-evenly;
     font-size: 30px;
     background-color: rgb(0, 0, 42);
     text-align: center;
+    align-items: center;
+    list-style-type: none;
 }
 
-nav ul li a {
-    list-style-type: none;
+nav a {
     text-decoration: none;
     color: white;
 }
@@ -50,20 +52,20 @@ nav ul li a {
 p {
     font-size: 20px;
     color: white;
+    margin-bottom: 10px;
 }
 
 .button {
     font-size: 0.8em;
-    font-family: Arial, Helvetica, sans-serif;
     color: white;
     padding: 0.3em;
     border: 2px solid rgb(0, 0, 42);
     border-radius: 0.3em;
     text-decoration: none;
+    margin-top: 5em;
 }
 
 .button:hover {
-    color: white;
     background: rgb(0, 0, 42);
     transition: all 250ms ease;
 }
@@ -75,13 +77,15 @@ p {
 }
 
 section img {
-    width: 300px;
-    flex-wrap: wrap;
+    width: 100%;
 }
 
 .container img {
     width: 4em;
-    color: white;
+}
+
+.container li {
+    flex-direction: row;
 }
 
 nav ul li a:hover {
@@ -100,3 +104,48 @@ nav ul li a:hover {
     width: 100%;
 }
 
+.container {
+    padding: 20px;
+}
+
+.tekst {
+    padding: 10px;
+}
+
+figure img {
+    width: 300px;
+}
+
+ol li:hover {
+    transition-duration: 0ms;
+    font-size: 1.8em;
+    background-color: rgb(234, 61, 61);
+    padding-right: 15em;
+    padding-left: 2em;
+}
+
+figure {
+    background-color: rgb(234, 61, 61);
+    margin: 40px;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+}
+
+figure figcaption {
+    background-color: rgb(0, 0, 42);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+h1 img {
+    width: 100%;
+}
+
+.laliga {
+    width: 10%;
+}
+
+.stadion h2 {
+    background-color: rgb(0, 0, 42);
+}
